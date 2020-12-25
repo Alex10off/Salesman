@@ -1,0 +1,22 @@
+.hero
+    background: #ebebeb url(../img/header-bg.jpg) no-repeat center
+    background-size: cover
+    background-position: left top
+    padding-top: 120px
+    padding-bottom: 270px
+    margin-top: 80px
+    &__title
+        font-size: 50px
+        margin-bottom: 40px
+        color: #000000
+        +bold
+    &__subtitle
+        display: block
+        margin-bottom: 67px
+        font-size: 30px
+        +bold
+
+@media (max-width: 991px)
+    .hero
+        background-size: cover
+        background-position: 70%

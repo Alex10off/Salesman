@@ -1,0 +1,36 @@
+.offer
+    padding: 130px 0
+    &-block
+        background: #fff url(../img/HeaderWiteBlue.jpg) no-repeat center
+        background-position: top right
+        box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2)
+        padding: 50px 0 100px
+        margin-top: -200px
+    &__title
+        font-size: 25px
+        text-transform: uppercase
+        margin-bottom: 50px
+        text-align: center
+        +bold
+    &__subtitle
+        display: block
+        font-size: 21px
+        margin-bottom: 100px
+        text-align: center
+        +bold
+    &__button
+        display: block
+        max-width: 300px
+        margin: auto
+@media (max-width: 1199px)
+    .offer
+        &-block
+            background-position: center bottom -50px
+@media (max-width: 768px)
+    .offer
+        &-block
+            padding: 40px
+        &__title
+            font-size: 18px
+        &__subtitle
+            font-size: 16px
