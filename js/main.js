@@ -35,7 +35,7 @@ $(window).load(function () {
     $('.link').click(function (e) {
         let link = $(this).attr("href");
         console.log(link);
-        location.href = link;
+        window.open(link);
         return false
     });
 
